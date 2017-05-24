@@ -1,4 +1,4 @@
-cordova.define("cordova-incall-plugins-InterfacePlugin", function(require, exports, module) { 	var exec = require('cordova/exec');
+ 	  var exec = require('cordova/exec');
        module.exports = {
                login : function(param, success, error){
                exec(success, error, "InterfacePlugin", "login", [param]);
@@ -82,5 +82,3 @@ cordova.define("cordova-incall-plugins-InterfacePlugin", function(require, expor
                }
 
    };
-               
-});
