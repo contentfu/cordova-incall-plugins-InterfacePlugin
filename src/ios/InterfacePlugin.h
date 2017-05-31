@@ -1,7 +1,6 @@
 #import <Cordova/CDVPlugin.h>
 
 @interface InterfacePlugin : CDVPlugin
-//login
 - (void)login:(CDVInvokedUrlCommand *)command;
 - (void)regist:(CDVInvokedUrlCommand *)command;
 - (void)sendAuthCode:(CDVInvokedUrlCommand *)command;
